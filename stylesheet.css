@@ -2,7 +2,7 @@ html {
     width: auto;
     height: auto;
     margin: 0%;
-    font-size: 110%;
+    font-size: 115%;
 }
 
 nav {
@@ -93,4 +93,6 @@ footer {
     padding-top: 1%;
     font-style: italic;
     text-align: center;
+    position: static;
+    padding-bottom: 2%;
 }
