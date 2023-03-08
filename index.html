@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,18 +10,22 @@
   <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 
-<div class="A1">
-  <div class="map1">
-    <header>
-      <img src="images\Vuyiswa Diale.jpg" alt="Vuyiswa Diale" width="250" height="200">
+<body>
+  <header>
+    <div class="profile">
+      <picture>
+        <source media="(max-width: 500px)" srcset="images\Vuyiswa1.png">
+        <source media="(max-width: 1000px)" srcset="images\Vuyiswa2.png">
+        <img src="images\Vuyiswa.png" alt="Vuyiswa" width="350" height="400">
+      </picture>
       <h1 class="text-center">Vuyiswa Diale</h1>
       <p class="intro">An Introductory Personal Statement. Ut enim ad minim veniam, quis nostrud exercitation ullamco
         laboris nisi
         ut
         aliquip ex ea commodo consequat. Et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
         exercitation ullamco laboris nisi ut</p>
-    </header>
-  </div>
+    </div>
+  </header>
 
   <div class="map2">
 
@@ -91,38 +96,42 @@
       </div>
     </body>
   </div>
-</div>
+  </div>
 
-<footer>
 
-  <h2>Contact Details</h2>
+  <footer>
 
-  <p><a href="https://www.linkedin.com/" target="_blank">LinkedIn</a></p>
-  <p>Cellphone Number: 0685107352</p>
-  <p>Email: dialevuyiswa@gmail.com</p>
 
-  <form action="https://submit-form.com/dialevuyiswa@gmail.com" method="POST">
-    <h4>Contact Form</h4>
+    <h2>Contact Details</h2>
 
-    <select id="subject" name="subject" required>
-      <option value="">--Choose a Subject</option>
-      <option value="Job opportunity">Job Opportunity</option>
-      <option value="Proposal collaboration">Proposal Collaboration</option>
-      <option value="General queries">General Queries</option>
-    </select>
-    <br>
-    <label for="name">Name:</label>
-    <input type="text" id="name" name="user_name" required>
-    <br>
-    <label for="mail">Email:</label>
-    <input type="mail" id="mail" name="user_mail">
-    <br>
-    <label for="msg">Message:</label>
-    <textarea name="user_message" id="msg" placeholder="optional"></textarea>
-    <br>
-    <br>
-    <button>Submit</button>
-  </form>
-</footer>
+    <p><a href="https://www.linkedin.com/" target="_blank">LinkedIn</a></p>
+    <p>Cellphone Number: 0685107352</p>
+    <p>Email: dialevuyiswa@gmail.com</p>
+
+    <form action="https://submit-form.com/dialevuyiswa@gmail.com" method="POST">
+      <h4>Contact Form</h4>
+
+      <select id="subject" name="subject" required>
+        <option value="">--Choose a Subject</option>
+        <option value="Job opportunity">Job Opportunity</option>
+        <option value="Proposal collaboration">Proposal Collaboration</option>
+        <option value="General queries">General Queries</option>
+      </select>
+      <br>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="user_name" required>
+      <br>
+      <label for="mail">Email:</label>
+      <input type="mail" id="mail" name="user_mail">
+      <br>
+      <label for="msg">Message:</label>
+      <textarea name="user_message" id="msg" placeholder="optional"></textarea>
+      <br>
+      <br>
+      <button>Submit</button>
+    </form>
+  </footer>
+
+</body>
 
 </html>

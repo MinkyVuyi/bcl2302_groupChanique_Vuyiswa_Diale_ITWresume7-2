@@ -5,20 +5,27 @@ html {
     font-size: 115%;
 }
 
+body {
+background-image: linear-gradient(rgba(222, 251, 226, 0.012), rgba(165, 244, 170, 0.5)), url("https://mail.google.com/mail/u/0?ui=2&ik=3fe32dd5fd&attid=0.1&permmsgid=msg-f:1759784915794065374&th=186c030ea2fef7de&view=att&disp=safe");
+}
+
 nav {
     background-color: rgb(81, 188, 100);
     padding-right: 500%;
     padding-top: 5%;
 }
 
+
 aside {
     padding-right: 80%;
     padding-bottom: 5%;
 }
 
+
 .container {
     display: flex;
 }
+
 
 h1,
 h2,
@@ -29,17 +36,20 @@ h3 {
     font-size: 160%;
 }
 
+
 h1 {
     text-align: center;
     font-size: 250%;
     color: white;
 }
 
+
 .intro {
     margin-top: 15%;
     font-size: 115%;
     color: white;
 }
+
 
 .map1 {
     background-color: rgb(32, 163, 56);
@@ -48,23 +58,27 @@ h1 {
     padding-left: 2%;
 }
 
+
 .map2 {
     background-color: rgb(97, 223, 116);
-    ;
     display: inline-block;
 }
+
 
 .map1 {
     flex: 1;
 }
 
+
 .map2 {
     flex: 3;
 }
 
+
 div {
     display: flex;
 }
+
 
 .mapA {
     background-color: rgb(97, 223, 116);
@@ -73,27 +87,30 @@ div {
     padding-left: 5%;
 }
 
+
 .mapB {
     background-color: rgb(97, 223, 116);
     display: inline-block;
     padding-left: 8%;
 }
 
+
 img {
     display: block;
-    border-radius: 50%;
     margin: auto;
     margin-top: 20%;
     border: 4px solid white;
     margin-right: 20%;
 }
 
+
 footer {
     background-color: rgb(80, 178, 80);
     padding-top: 1%;
     text-align: center;
     position: static;
-    padding-bottom: 2%;;
+    padding-bottom: 2%;
+    ;
 }
 
 h4 {
@@ -102,12 +119,14 @@ h4 {
     margin-right: 40%;
 }
 
+
 label {
     width: 5%;
     display: inline-block;
     margin: 4px;
     font-weight: bold;
 }
+
 
 button:hover {
     background-color: cadetblue;
