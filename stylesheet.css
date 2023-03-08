@@ -101,3 +101,14 @@ h4 {
     margin-left: 40%;
     margin-right: 40%;
 }
+
+label {
+    width: 5%;
+    display: inline-block;
+    margin: 4px;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: cadetblue;
+}
