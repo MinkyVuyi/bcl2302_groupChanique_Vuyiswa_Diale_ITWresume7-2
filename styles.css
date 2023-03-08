@@ -12,10 +12,11 @@ header {
     background-size: cover;
 
 }
- .blur {
+
+.blur {
     background-color: rgba(0, 0, 0, 0.0012);
     backdrop-filter: blur(1px);
- }
+}
 
 nav {
     background-color: rgb(70, 155, 70);
@@ -29,7 +30,7 @@ aside {
 }
 
 .container {
-   flex: 30px;
+    flex: 30px;
 }
 
 h2,
@@ -50,8 +51,8 @@ h1 {
 }
 
 .intro {
-   margin-top: 250px;
-   margin-right: 400px;
+    margin-top: 250px;
+    margin-right: 400px;
     font-size: 115%;
     color: black;
     font-weight: bolder;
